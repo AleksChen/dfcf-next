@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  dfcf-crawler:
+    build: .
+    ports:
+      - "3000:3000"
+    volumes:
+      # 持久化数据库文件
+      - ./data:/app/data
+    environment:
+      - NODE_ENV=production
+    restart: unless-stopped

@@ -1,0 +1,11 @@
+Dockerfile
+.dockerignore
+node_modules
+npm-debug.log
+README.md
+.next
+.git
+.gitignore
+data/crawler.db
+data/crawler.db-shm
+data/crawler.db-wal
