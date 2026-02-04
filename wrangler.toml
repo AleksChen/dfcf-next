@@ -1,0 +1,12 @@
+name = "dfcf-next"
+compatibility_date = "2024-01-01"
+
+# D1 数据库绑定
+[[d1_databases]]
+binding = "DB"
+database_name = "dfcf-crawler"
+database_id = "YOUR_DATABASE_ID"  # 创建 D1 数据库后替换
+
+# 环境变量
+[vars]
+NODE_ENV = "production"
